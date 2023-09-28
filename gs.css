@@ -26,4 +26,10 @@ body{
     font-size: 40px;
     color: aqua;
 }
+body{
+    background-image: url(hospital.jpg);
+    background-size:cover ;
+    background-position: center;
+    font-family: sans-serif;
+}
 
