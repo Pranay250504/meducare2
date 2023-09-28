@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(hospital.jpg);
+    background-size:cover ;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background: rgb(2, 2, 69);
+    text-align: center;
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background:rgb(0, 0, 80) ;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub1{
+    display: none;
+}
+.menu-bar ul li:hover .sub1 ul{
+    display: block;
+    position: absolute;
+    background: rgb(0, 0, 139);
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.menu-bar ul li:hover .sub1{
+    display: block;
+    margin: 10px;
+
+}
+.menu-bar ul li:hover .sub1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menu-bar ul li:hover .sub1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub1 ul li a:hover{
+    color: rgb(0, 0, 80);
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  .mb{
+    font-size: 35px;
+
+  }
+  .qm{
+    font-weight: bolder;
+    font-size: 40px;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+        }
+      .h2{
+        font-weight: bolder;
+      font-size: 40px;
+      margin-left: 20px;
+    }
+    .v{
+        display: flex;
+        text-align: justify;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .m{
+        display: flex;
+        text-align: justify;
+        justify-content: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #logo{display: flex;
+        height:10px;
+        padding-bottom: 20px;
+    }
+    #log{
+        height: 80px;
+        margin-top: 20px;
+        margin-right:800px;
+    }
+    #p{
+        color: white;
+        margin-left: 15px;
+    }
+
+    #W{
+        margin-left: 100px;
+    
+    }
+    #X{
+        height: 50px;
+    }
+    #Y{
+        margin-right: 200px;
+        margin-left: 50px;
+    }
+    #Z{margin-left: 300px;
+    
+    }
+    .content{
+        height: 800px;
+        background-color: #357960;
+        
+    }
+  
+    .FINAL{
+        height: 250PX;
+        background-color:rgb(2, 2, 69);
+    }
+    #q{margin-left: 10px;
+        color: white;
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    #a{color: white;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-left: 200px;
+    }
+
+    #b{color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: 200px;
+    }
+    #d{color: white;
+        font-size: 28px;
+        font-weight: bolder;
+        margin-left: 400px;
+    }
+    #c{color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: 300px;
+    }
+    #e{color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: 200px;
+    }
+    #v{
+        display: inline;
+    }
+  body{
+    background-image:url(bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+  }
