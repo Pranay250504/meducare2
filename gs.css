@@ -13,11 +13,7 @@
     display: flex;
     align-items: justify;
 }
-body{
-    background-color: white ;
-    background-position: center;
-    background-size: cover; 
-}
+
 .ok{
     background-color: rgb(0,0,139);
     height: 60px;
